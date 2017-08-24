@@ -1,6 +1,7 @@
 {
   "name": "clients",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001",
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
