@@ -4,8 +4,8 @@ import {SubmitProduct} from "../../components";
 class SubmitProductContainer extends Component {
   render() {
     return (
-      <div>
-        <SubmitProduct onChange={this.props.onChange} />
+      <div className="submitProductStyles">
+        <SubmitProduct onChange={this.props.onChange} submitProduct={this.props.submitProduct} />
       </div>
 
     )

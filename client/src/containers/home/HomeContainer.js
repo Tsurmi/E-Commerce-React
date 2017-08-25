@@ -12,7 +12,7 @@ class HomeContainer extends Component {
 
   getTitle = () => {
     setTimeout(() => {
-      this.setState({ title: "Welcome"});
+      this.setState({ title: "Shop 'til You Drop"});
     }, 0)
   }
 

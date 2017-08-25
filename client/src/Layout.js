@@ -28,7 +28,7 @@ class Layout extends Component {
             <Profile user={this.props.user} /> }
           />
           <Route path="/submitProduct" render={() =>
-            <SubmitProductContainer onChange={this.props.onChange}/> }
+            <SubmitProductContainer onChange={this.props.onChange} submitProduct={this.props.submitProduct}/> }
           />
          </Switch>
         </div>
